@@ -1,3 +1,4 @@
+#!/bin/bash
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 brew update
@@ -31,6 +32,9 @@ brew install git
 brew install brew-cask
 brew tap caskroom/versions
 
+brew cask install virtualbox
+brew cask install boot2docker
+brew cask install vagrant
 brew cask install eclipse-ide
 brew cask install java
 brew cask install firefox
