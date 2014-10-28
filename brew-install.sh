@@ -29,7 +29,8 @@ brew install wget --enable-iri
 
 
 brew install git
-brew install brew-cask
+
+brew install caskroom/cask/brew-cask
 brew tap caskroom/versions
 
 brew cask install virtualbox
