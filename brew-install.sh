@@ -29,6 +29,7 @@ brew install wget --enable-iri
 
 brew install git
 brew install brew-cask
+brew tap caskroom/versions
 
 brew cask install eclipse-ide
 brew cask install java
@@ -36,7 +37,7 @@ brew cask install firefox
 brew cask install google-chrome
 brew cask install google-drive
 brew cask install skype
-brew cask install sublime-text
+brew cask install sublime-text3
 brew cask install dropbox
 brew cask install istat-menus
 brew cask install transmission
