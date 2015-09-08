@@ -313,4 +313,12 @@ for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "cfprefsd" \
 	"Terminal" "Transmission" "Twitter" "iCal"; do
 	killall "${app}" > /dev/null 2>&1
 done
+
+###############################################################################
+# Network                                                                    #
+###############################################################################
+
+/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport en0 prefs DisconnectOnLogout=NO
+
+
 echo "Done. Note that some of these changes require a logout/restart to take effect."
