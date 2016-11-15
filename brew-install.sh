@@ -49,6 +49,5 @@ brew cask install the-unarchiver
 brew cask install tunnelblick
 brew cask install spotify
 brew cask install spectacle
-brew cask install github
 
 brew cleanup
