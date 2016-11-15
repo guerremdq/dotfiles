@@ -34,9 +34,6 @@ brew install caskroom/cask/brew-cask
 brew tap caskroom/versions
 
 brew cask install virtualbox
-brew cask install boot2docker
-brew cask install vagrant
-brew cask install eclipse-ide
 brew cask install java
 brew cask install firefox
 brew cask install google-chrome
@@ -49,13 +46,9 @@ brew cask install transmission
 brew cask install macvim
 brew cask install iterm2
 brew cask install the-unarchiver
-brew cask install hipchat
 brew cask install tunnelblick
 brew cask install spotify
 brew cask install spectacle
-brew cask install limechat
-brew cask install cyberduck
 brew cask install github
-brew cask install adium
 
 brew cleanup
